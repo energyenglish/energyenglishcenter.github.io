@@ -1,26 +1,29 @@
-const userName = document.getElementById("reg_name");
-const userPhone = document.getElementById("reg_phone");
-const userEmail = document.getElementById("reg_email");
-const form = document.getElementById("form");
+const register = document.getElementById('register');
+const name = document.getElementById("reg_name");
+const phone = document.getElementById("reg_phone");
+const diachi = document.getElementById("reg_diachi");
+const email = document.getElementById("reg_email");
+register.addEventListener('click', addClick);
 
-form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    checkInputs();
-});
+function addClick() {
+    const nameValue = name.value;
+    const phoneValue = phone.value;
+    const diachiValue = diachi.value;
+    const emailValue = email.value;
+    const error = [];
+    if (!nameValue) {
+        error.push('Tài Khoản không được để trống');
+    }
+    if (!phoneValue) {
+        error.push('Số điện thoại không được để trống');
+    }
+    if (!diachiValue) {
+        error.push("Vui lòng nhập địa chỉ");
+    }
+    if (!emailValue) {
+        error.push("Email không được để trống";)
+    } else {
+        alert("bạn đã đăng ký thành công");
+    }
 
-function checkInputs() {
-    const userNameValue = userName.value.trim();
-    const userPhoneValue = userPhone.value.trim();
-    const userEmailValue = userEmail.value.trim();
-
-    if (userNameValue === '') {
-        alert("User may not leave blank")
-        ''
-    }
-    if (userPhoneValue === '') {
-        alert("Phone may not leave blank")
-    }
-    if (userEmailValue === '') {
-        alert("Email may not leave blank")
-    }
 }

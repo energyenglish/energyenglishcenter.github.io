@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
-
+    <script src="https://kit.fontawesome.com/f338b0120c.js" crossorigin="anonymous"></script>
 
 
 
@@ -69,19 +69,46 @@
                     </div>
                     <div class="register-form">
                         <h3 class="text-black bar-center text-center bottom-24">Đăng Ký Ngay</h3>
-                        <form id="form" action="https://script.google.com/macros/s/AKfycbzwzB7Bfi_mgg003mAf2t7dGOlZE0M0sNPX348UM952b7GjA3o/exec" method="GET" novalidate="novalidate">
+                        <form id="form" action="https://script.google.com/macros/s/AKfycbzZ6ObABDCIpcsZkohwnyrbUJB0r-IdQB-6lg5zJQRduz9PMNkl/exec" method="GET">
                             <div class="form-group">
-                                <input type="text" id="reg_name" name="reg_name" placeholder="Họ và Tên">
+                                <label>Tài Khoản</label>
+                                <input type="text" id="reg_name" name="Ho_Ten" placeholder="Họ và Tên">
+                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-exclamation-circle"></i>
+                                <small>Error message</small>
                             </div>
                             <div class="form-group">
-                                <input type="number" id="reg_phone" name="reg_phone" placeholder="Số Điện Thoại">
+                                <input type="text" id="reg_diachi" name="Dia_Chi" placeholder="Địa Chỉ">
+                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-exclamation-circle"></i>
+                                <small>Erro message</small>
                             </div>
                             <div class="form-group">
-                                <input type="email" id="reg_email" name="reg_email" placeholder="Email">
+                                <input type="number" id="reg_phone" name="So_Dien_Thoai" placeholder="Số Điện Thoại">
+                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-exclamation-circle"></i>
+                                <small>Erro message</small>
                             </div>
+                            <div class="form-group">
+                                <input type="email" id="reg_email" name="Email" placeholder="Email">
+                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-exclamation-circle"></i>
+                                <small>Erro message</small>
+                            </div>
+                            <label class="label" for="">Đăng ký cho: </label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <input type="radio" aria-label="Radio button for following text input">
+                                    </div>
+                                </div>
+
+                            </div>
+
                             <div class="form-group submit-row">
-                                <input type="submit" value="Register Now" class="btn btn-danger btn-block">
+                                <input id="register" type="submit" value="Register Now" class="btn btn-danger btn-block">
                             </div>
+
                         </form>
                     </div>
                 </div>
