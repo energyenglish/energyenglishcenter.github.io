@@ -320,7 +320,8 @@ input[type="number"] {
     line-height: inherit;
     appearance: textfield;
     background-color: transparent;
-    color: inherit;
+    color: black;
+    outline: none;
     font-size: 16px;
     border: none;
     margin-bottom: 8px;
