@@ -399,7 +399,7 @@ button#reg_submit {
     .anhREs {
         width: 86%;
     }
-    ..site-btn1,
+    .site-btn1,
     .site-btn2 {
         margin-top: 5%;
         margin-bottom: 5%;
@@ -413,7 +413,5 @@ button#reg_submit {
     .site-btn2 {
         background-color: #ccc;
         color: black;
-        margin-bottom: 25px;
-        margin-left: 20px;
     }
 }
