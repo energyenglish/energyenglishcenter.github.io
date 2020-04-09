@@ -410,4 +410,10 @@ button#reg_submit {
         background-color: black;
         color: white;
     }
+    .site-btn2 {
+        background-color: #ccc;
+        color: black;
+        margin-bottom: 25px;
+        margin-left: 20px;
+    }
 }
