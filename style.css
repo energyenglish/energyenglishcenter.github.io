@@ -391,7 +391,7 @@ button#reg_submit {
     transition: .3s;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 512px) {
     .register-form {
         margin-left: 38px;
         width: 315px;
