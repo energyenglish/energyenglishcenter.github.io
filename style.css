@@ -402,7 +402,8 @@ button#reg_submit {
     ..site-btn1,
     .site-btn2 {
         margin-top: 5%;
-        margin-bottom: 0%;
+        margin-bottom: 2%;
+        margin-left: 52px;
         z-index: 100;
     }
     .site-btn1 {
