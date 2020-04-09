@@ -266,8 +266,8 @@ p.para-2 {
 
 .register-form {
     background: white;
-    color: #fff;
-    margin-top: 100px;
+    color: black;
+    margin-top: 110px;
     margin-left: 400px;
     z-index: 1000;
     margin-bottom: 24px;
@@ -301,17 +301,17 @@ p.para-2 {
     width: 427px;
 }
 
-
-}
 .form-group {
     position: relative;
     margin-bottom: 20px;
 }
+
 .register-form input {
     transition: all .2s ease 0s;
     width: 100%;
     border-bottom: 1px solid #ccc;
 }
+
 input[type="text"],
 input[type="email"],
 input[type="number"] {
@@ -328,34 +328,42 @@ input[type="number"] {
     box-shadow: 0 1px 0 rgba(0, 0, 0, .12);
     transition: .3s;
 }
+
 .submit-row {
     padding: 16px 0 4px;
     margin-bottom: 0;
     box-sizing: border-box;
 }
+
 button#reg_submit {
     cursor: pointer;
 }
+
 .form-group.success input {
     border-color: #2ecc71;
 }
+
 .form-group.error input {
     border-color: #e74c3c;
 }
+
 .form-group i {
     visibility: hidden;
     position: absolute;
     top: 40px;
     right: 10px;
 }
+
 .form-group.success i.fa-check-circle {
     color: #2ecc71;
     visibility: visible;
 }
+
 .form-group.error i.fa-exclamation-circle {
     color: #e74c3c;
     visibility: visible;
 }
+
 .form-group small {
     color: #e74c3c;
     position: absolute;
@@ -363,9 +371,11 @@ button#reg_submit {
     left: 0;
     visibility: hidden;
 }
+
 .form-group.error small {
     visibility: visible;
 }
+
 .label {
     padding: 8px 0;
     height: 36px;
@@ -379,4 +389,14 @@ button#reg_submit {
     margin-bottom: 8px;
     box-shadow: 0 1px 0 rgba(0, 0, 0, .12);
     transition: .3s;
+}
+
+@media screen and (max-width: 992px) {
+    .register-form {
+        margin-left: 38px;
+        width: 315px;
+    }
+    .anhREs {
+        width: 86%;
+    }
 }
